@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/de4cbacc-efa2-4e4e-ab18-4cae09dcb0b1.png" 
+              src="/static/FARMHeader.png" 
               alt="FARM Logo" 
               className="h-8 w-auto"
             />

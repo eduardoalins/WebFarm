@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex justify-center md:justify-start">
             <img 
-              src="/lovable-uploads/b48a9089-cba9-43af-8ea6-f37cd74adf47.png" 
+              src="/static/FARMLogoBranca.png" 
               alt="FARM Logo B&W" 
               className="h-12 w-auto"
             />

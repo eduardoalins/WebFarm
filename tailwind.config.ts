@@ -67,8 +67,8 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				'farm-primary': '#1EC4BF',
-				'farm-secondary': '#24D9AC',
-				'farm-tertiary': '#26D5AC',
+				'farm-secondary': '#1EC4BF',
+				'farm-tertiary': '#1EC4BF',
 				'farm-light': '#F5F5F5',
 				'farm-dark': '#1E1E1E'
 			},

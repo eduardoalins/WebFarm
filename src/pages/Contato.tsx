@@ -11,7 +11,7 @@ const Contato = () => {
       <div 
         className="relative h-[400px] flex items-center justify-center"
         style={{
-          backgroundImage: `url('/lovable-uploads/5f52cdba-e40a-4f25-af6b-cd2f04d76b15.png')`,
+          backgroundImage: `url('/static/imagemCentralContato.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

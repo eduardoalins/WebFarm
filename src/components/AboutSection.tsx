@@ -7,19 +7,19 @@ const AboutSection = () => {
   
   const services = [
     {
-      icon: '/lovable-uploads/4469467f-02e9-495b-bd2c-f62f155161d9.png',
+      icon: '/static/EnergiaImagem.png',
       title: 'Energia Renovável'
     },
     {
-      icon: '/lovable-uploads/7fd02d58-7605-49fa-9845-66c81b2c6cf9.png',
+      icon: '/static/ConsultoriaImagem.png',
       title: 'Consultoria Técnica'
     },
     {
-      icon: '/lovable-uploads/590d7fd7-5055-41f9-a29f-95a0c2d77f30.png',
+      icon: '/static/ParceriasImagem.png',
       title: 'Parcerias Estratégicas'
     },
     {
-      icon: '/lovable-uploads/9c8e08fd-c8e5-4e8b-acda-4ad009147a77.png',
+      icon: '/static/RegulacaoImagem.png',
       title: 'Regulação'
     }
   ];
@@ -43,7 +43,7 @@ const AboutSection = () => {
             </div>
             <div className="flex justify-center lg:justify-center lg:ml-24">
               <img 
-                src="/lovable-uploads/f4cffbf2-58da-4820-9f15-adfc9d8fe979.png" 
+                src="/static/FARMLogoColorida.png" 
                 alt="FARM Logo" 
                 className="h-60 w-60 object-contain"
               />

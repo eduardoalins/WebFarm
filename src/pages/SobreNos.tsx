@@ -26,7 +26,7 @@ const SobreNos = () => {
       id: 1,
       titulo: "São Paulo - Sede Principal",
       data: "2018 - Presente",
-      imagem: "/lovable-uploads/3f843eb5-c53f-4b40-8227-953be9aa2558.png",
+      imagem: "/static/imagemReuniao.png",
       descricao: "Nossa sede principal localizada no coração financeiro do Brasil",
       descricaoCompleta: "Nossa sede principal está estrategicamente localizada no coração financeiro do Brasil, em São Paulo. Este escritório serve como centro de comando de todas as nossas operações, abrigando as equipes de liderança, desenvolvimento de projetos e relacionamento com clientes. Desde 2018, temos consolidado nossa presença na capital paulista, estabelecendo parcerias sólidas com instituições financeiras, empresas de energia e órgãos reguladores. O escritório conta com infraestrutura moderna e tecnológica para suportar nossos projetos de energia renovável em todo o território nacional."
     },
@@ -34,7 +34,7 @@ const SobreNos = () => {
       id: 2,
       titulo: "Rio de Janeiro - Filial",
       data: "2020 - Presente",
-      imagem: "/lovable-uploads/96d24c0f-1dd1-4d1e-afb9-2797cfc551a5.png",
+      imagem: "/static/FotoTeste2.png",
       descricao: "Expansão para atender projetos no estado do Rio de Janeiro",
       descricaoCompleta: "Nossa filial no Rio de Janeiro foi estabelecida em 2020 como parte da estratégia de expansão regional. Esta unidade é responsável por atender todo o estado do Rio de Janeiro e região, desenvolvendo projetos de energia renovável em parceria com empresas locais e o governo estadual. A equipe carioca foca especialmente em projetos de energia solar distribuída e pequenas centrais hidrelétricas, aproveitando as características geográficas favoráveis da região. O escritório também serve como ponte para projetos no Espírito Santo e sul da Bahia."
     },
@@ -42,7 +42,7 @@ const SobreNos = () => {
       id: 3,
       titulo: "Minas Gerais - Operações",
       data: "2021 - Presente",
-      imagem: "/lovable-uploads/5408cd79-125c-4c87-99ae-048be3470a20.png",
+      imagem: "/static/FotoTeste1.png",
       descricao: "Centro de operações para projetos de energia renovável",
       descricaoCompleta: "O centro de operações em Minas Gerais, inaugurado em 2021, representa um marco importante em nossa expansão. Esta unidade concentra as atividades operacionais de monitoramento e manutenção de usinas de energia renovável em funcionamento. Minas Gerais foi escolhida estrategicamente por sua posição central no país e pela abundância de recursos naturais favoráveis à geração de energia limpa. A equipe mineira é especializada em operação e manutenção de usinas solares, pequenas centrais hidrelétricas e projetos de biomassa, garantindo máxima eficiência e produtividade dos ativos energéticos."
     },
@@ -50,7 +50,7 @@ const SobreNos = () => {
       id: 4,
       titulo: "Bahia - Energia Solar",
       data: "2022 - Presente",
-      imagem: "/lovable-uploads/7fd02d58-7605-49fa-9845-66c81b2c6cf9.png",
+      imagem: "/static/7fd02d58-7605-49fa-9845-66c81b2c6cf9.png",
       descricao: "Especialização em projetos de energia solar fotovoltaica",
       descricaoCompleta: "Nossa unidade na Bahia, estabelecida em 2022, é especializada exclusivamente em projetos de energia solar fotovoltaica. A Bahia oferece condições excepcionais para geração solar, com altos índices de irradiação durante todo o ano. Nossa equipe baiana desenvolve desde grandes usinas solares até sistemas de geração distribuída para empresas e residências. Trabalhamos em estreita colaboração com fornecedores locais e internacionais de equipamentos fotovoltaicos, garantindo a melhor relação custo-benefício e tecnologia de ponta em todos os projetos. A unidade também atende os estados do Sergipe e parte de Pernambuco."
     },
@@ -58,7 +58,7 @@ const SobreNos = () => {
       id: 5,
       titulo: "Ceará - Energia Eólica",
       data: "2023 - Presente",
-      imagem: "/lovable-uploads/b48a9089-cba9-43af-8ea6-f37cd74adf47.png",
+      imagem: "/static/FotoTeste2.png",
       descricao: "Foco em desenvolvimento de parques eólicos offshore e onshore",
       descricaoCompleta: "A unidade do Ceará, nossa mais recente expansão de 2023, concentra-se no desenvolvimento de parques eólicos tanto onshore quanto offshore. O Ceará é líder nacional em geração eólica, oferecendo ventos constantes e de alta qualidade. Nossa equipe cearense trabalha no desenvolvimento de complexos eólicos de grande porte, desde a prospecção de áreas até a operação comercial. Temos expertise em estudos anemométricos, modelagem de ventos e otimização de layout de parques. Também desenvolvemos projetos piloto de energia eólica offshore, uma tecnologia emergente no Brasil com enorme potencial de crescimento."
     },
@@ -66,7 +66,7 @@ const SobreNos = () => {
       id: 6,
       titulo: "Paraná - Biomassa",
       data: "2024 - Presente",
-      imagem: "/lovable-uploads/4a0e2ce2-25be-4cbc-844d-c688182dc588.png",
+      imagem: "/static/imagemCentralHome.png",
       descricao: "Projetos inovadores de geração de energia a partir de biomassa",
       descricaoCompleta: "Nossa mais nova unidade, inaugurada em 2024 no Paraná, dedica-se ao desenvolvimento de projetos inovadores de geração de energia a partir de biomassa. O Paraná possui um forte setor agroindustrial, gerando abundantes resíduos que podem ser convertidos em energia limpa. Nossa equipe paranaense desenvolve projetos utilizando bagaço de cana, casca de arroz, resíduos florestais e outros materiais orgânicos. Trabalhamos com tecnologias avançadas de combustão, gasificação e biodigestão, sempre priorizando a sustentabilidade ambiental. Os projetos beneficiam tanto produtores rurais quanto indústrias, criando uma economia circular virtuosa."
     }
@@ -75,17 +75,17 @@ const SobreNos = () => {
   const cardsInfo = [
     {
       titulo: "Missão",
-      icone: "/lovable-uploads/c0627658-14f0-429d-9164-3679c9b3d5b9.png",
+      icone: "/static/MissaoImagem.png",
       descricao: "Desenvolver soluções inovadoras em energia renovável que transformem o futuro energético do Brasil de forma sustentável e eficiente."
     },
     {
       titulo: "Visão",
-      icone: "/lovable-uploads/93acbbd6-07c9-4134-8e18-b40b19f0ff62.png",
+      icone: "/static/VisaoImagem.png",
       descricao: "Ser referência nacional em consultoria de energia renovável, liderando a transição energética brasileira."
     },
     {
       titulo: "Valores",
-      icone: "/lovable-uploads/c7b0cecd-2902-42f8-99d5-3f129983f4e8.png",
+      icone: "/static/ValoresImagem.png",
       descricao: "Sustentabilidade, inovação, transparência e compromisso com o meio ambiente e com nossos clientes."
     }
   ];
@@ -99,7 +99,7 @@ const SobreNos = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('${activeTab === 'empresa' ? '/lovable-uploads/5408cd79-125c-4c87-99ae-048be3470a20.png' : '/lovable-uploads/f4bfded3-73fa-4b84-82b3-298e8f32e096.png'}')`
+            backgroundImage: `url('${activeTab === 'empresa' ? '/static/imagemCentralAbout.png' : '/static/imagemCentralSocios.png'}')`
           }}
         />
         <div className="absolute inset-0 bg-black/40" />
@@ -200,7 +200,7 @@ const SobreNos = () => {
                 </div>
                 <div className="flex justify-center">
                   <img 
-                    src="/lovable-uploads/96d24c0f-1dd1-4d1e-afb9-2797cfc551a5.png" 
+                    src="/static/FotoTeste3.png" 
                     alt="Nossa trajetória" 
                     className="rounded-lg shadow-lg w-full max-w-md object-cover"
                   />
@@ -300,7 +300,7 @@ const SobreNos = () => {
                 <div className="flex gap-6">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/lovable-uploads/e4c80f96-cd27-4816-a3e8-ef7f4cf369e6.png" 
+                      src="/static/SociosImage.png" 
                       alt="Fábio Lopes Alves"
                       className="w-32 h-32 rounded-full object-cover"
                     />
@@ -340,7 +340,7 @@ const SobreNos = () => {
                 <div className="flex gap-6">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/lovable-uploads/e4c80f96-cd27-4816-a3e8-ef7f4cf369e6.png" 
+                      src="/static/SociosImage.png" 
                       alt="Antonio Carlos Reis da Souza"
                       className="w-32 h-32 rounded-full object-cover"
                     />
@@ -379,7 +379,7 @@ const SobreNos = () => {
                 <div className="flex gap-6">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/lovable-uploads/e4c80f96-cd27-4816-a3e8-ef7f4cf369e6.png" 
+                      src="/static/SociosImage.png" 
                       alt="Francisco Roberto Ramos de Souza"
                       className="w-32 h-32 rounded-full object-cover"
                     />
@@ -419,7 +419,7 @@ const SobreNos = () => {
                 <div className="flex gap-6">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/lovable-uploads/e4c80f96-cd27-4816-a3e8-ef7f4cf369e6.png" 
+                      src="/static/SociosImage.png" 
                       alt="Maurício Carripeiro Labo"
                       className="w-32 h-32 rounded-full object-cover"
                     />
