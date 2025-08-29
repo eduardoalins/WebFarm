@@ -76,17 +76,17 @@ const SobreNos = () => {
     {
       titulo: "Missão",
       icone: "/static/MissaoImagem.png",
-      descricao: "Desenvolver soluções inovadoras em energia renovável que transformem o futuro energético do Brasil de forma sustentável e eficiente."
+      descricao: "Oferecer serviços de engenharia e consultoria na área de energia, atuando com competência, transparência e ética, com foco na sustentabilidade."
     },
     {
       titulo: "Visão",
       icone: "/static/VisaoImagem.png",
-      descricao: "Ser referência nacional em consultoria de energia renovável, liderando a transição energética brasileira."
+      descricao: "Ser reconhecida dentre os melhores fornecedores de serviços de engenharia e consultoria na área de energia."
     },
     {
       titulo: "Valores",
       icone: "/static/ValoresImagem.png",
-      descricao: "Sustentabilidade, inovação, transparência e compromisso com o meio ambiente e com nossos clientes."
+      descricao: "Inovação, Ética, Integridade e Responsabilidade nos guiam para a construção de credibilidade com serviços comprometidos com a sustentabilidade."
     }
   ];
 
@@ -107,13 +107,14 @@ const SobreNos = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl">
             <h1 className="font-ibm-plex text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-              {activeTab === 'empresa' ? 'Nossa Empresa' : 'Nossos Sócios'}
+              {activeTab === 'empresa' ? 'Nossa Empresa' : 'Nossos Sócios'} {/* Empresa */} {/* Socios */}
             </h1>
             <p className="font-ibm-plex text-xl text-white leading-relaxed">
               {activeTab === 'empresa' 
-                ? 'Construindo o futuro da energia renovável no Brasil'
+                ? 'Modelando o futuro da energia no Brasil'
                 : 'Conheça os profissionais que lideram nossa missão'
-              }
+              } {/* Empresa */} 
+                {/* Socios */}
             </p>
           </div>
         </div>
@@ -175,9 +176,11 @@ const SobreNos = () => {
               {/* Texto da empresa alinhado ao grid dos cards */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                 <p className="md:col-span-3 font-ibm-plex text-lg text-gray-600 leading-relaxed text-left">
-                  É uma sociedade constituída por executivos sêniores, com larga experiência em posições de liderança no planejamento 
-                  e execução de estratégias vencedoras na estrutura, na infraestrutura, na construção e na operação, com comprovada habilidade no relacionamento 
-                  e negociação com Acionistas, Conselheiros, Executivos e Entidades Governamentais e Privadas.
+                  É uma sociedade constituída por executivos sêniores, com larga experiência em
+                  posições de liderança no planejamento e execução de estratégias vencedoras em
+                  empresas de infraestrutura, com reconhecida habilidade no relacionamento e
+                  negociação com Acionistas, Conselheiros, Executivos e Entidades Governamentais
+                  e Privadas.
                 </p>
               </div>
               
