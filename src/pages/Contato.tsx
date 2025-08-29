@@ -52,10 +52,10 @@ const Contato = () => {
                 Telefone
               </h3>
               <a 
-                href="tel:+5511986814100"
+                href="tel:+5581988814100"
                 className="font-ibm-plex text-lg text-farm-dark hover:text-farm-primary transition-colors"
               >
-                +55 (11) 98681-4100
+                +55 (81) 98881-4100
               </a>
             </div>
 
@@ -98,8 +98,13 @@ const Contato = () => {
                 Localização
               </h3>
               <div className="font-ibm-plex text-lg text-farm-dark">
-                <p>Avenida República do Líbano, 251</p>
-                <p>Empresarial Ibiomac, Torre 3, Sala 1314</p>
+                <a 
+                  href="https://www.google.com/maps/place/EMPRESARIAL+RIO+MAR+TORRE+4/@-8.0848396,-34.9013288,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x7ab1f9c507ee1df:0xd7ed4c5a48797476!8m2!3d-8.0848396!4d-34.8964579!16s%2Fg%2F11vdxpr5j4?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D" 
+                  className="hover:text-farm-primary transition-colors whitespace-nowrap block"
+                >
+                  Av. República do Líbano 251 <br />
+                  Torre 4 Sala 1314
+                </a>
               </div>
             </div>
 
