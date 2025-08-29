@@ -303,7 +303,7 @@ const SobreNos = () => {
                 <div className="flex gap-6">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/static/SociosImage.png" 
+                      src="/static/FabioFarm.png" 
                       alt="Fábio Lopes Alves"
                       className="w-32 h-32 rounded-full object-cover"
                     />
@@ -311,7 +311,7 @@ const SobreNos = () => {
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
                       <h3 className="font-ibm-plex font-bold text-2xl text-farm-dark">
-                        <span className="font-black">F</span>ábio Lopes Alves
+                        <span className="text-[#1EC4BF] font-black">F</span>ábio Lopes Alves
                       </h3>
                       <a 
                         href="https://www.linkedin.com/" 
@@ -323,35 +323,41 @@ const SobreNos = () => {
                       </a>
                     </div>
                     <div className="font-ibm-plex text-sm text-gray-600 leading-relaxed space-y-1">
-                      <p>• Engenheiro Eletricista pela UFRJ</p>
-                      <p>• Executivo sênior no setor elétrico brasileiro - mais de 25 anos - com posições de liderança</p>
-                      <p>• Ex-Diretor Presidente da Elektro</p>
-                      <p>• Ex-Diretor da Área de Energia da Neoenergia</p>
-                      <p>• Ex-Vice-Presidente da ABCE - Associação Brasileira de Companhias de Energia Elétrica</p>
-                      <p>• Ex-Conselheiro da ABRADEE - Associação Brasileira de Distribuidoras de Energia Elétrica</p>
-                      <p>• Ex-Coordenador do Grupo de Trabalho de Eficiência Energética da ABRADEE</p>
-                      <p>• Ex-Presidente do Conselho de Administração da CEEE-D</p>
-                      <p>• Ex-Presidente do Comitê de Regulação Econômica da ABCE</p>
-                      <p>• Atualmente é consultor independente</p>
+                      <ul className="list-disc pl-5 space-y-1 marker:text-gray-500">
+                      <li>Engenheiro Eletricista e de Produção</li>
+                      <li>Engenheiro da Companhia Hidroelétrica do São Francisco – Chesf, com atuação nas áreas
+                          de proteção, controle, telecomunicações, operação e manutenção, projeto e construção
+                          de sistemas elétricos de potência</li>
+                      <li>Presidente da Companhia Energética de Pernambuco – CELPE</li>
+                      <li>Diretor Técnico da Empresa de Transmissão de Energia – Sistema de Transmissão Nordeste S.A. – STN</li>
+                      <li>Diretor Administrativo Financeiro da Empresa de Transmissão de Energia – Transnorte Energia S.A. – TNE</li>
+                      <li>Secretário de Energia Elétrica do Ministério de Minas e Energia – MME</li>
+                      <li>Presidente da Companhia Hidroelétrica do São Francisco – Chesf</li>
+                      <li>Conselheiro de 22 empresas de energia, dentre as quais: Norte Energia S.A. (Belo Monte),
+                          Jirau Energia, Operador Nacional do Sistema Elétrico, Rumo S.A., Centro de Pesquisas de
+                          Energia Elétrica – CEPEL, Centro de Memória da Eletricidade no Brasil.</li>
+                      <li>Certificado pelo IBGC para Membro de Conselho de Administração (CCA+IBGC)</li>
+                      <li>Contato: fabio@farmenergia.com.br, (81)996010408</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Antonio Carlos Reis da Souza */}
+              {/* Antonio Carlos Reis de Souza */}
               <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-2">
                 <div className="flex gap-6">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/static/SociosImage.png" 
-                      alt="Antonio Carlos Reis da Souza"
+                      src="/static/AntonioFarm.png" 
+                      alt="Antonio Carlos Reis de Souza"
                       className="w-32 h-32 rounded-full object-cover"
                     />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
                       <h3 className="font-ibm-plex font-bold text-2xl text-farm-dark">
-                        <span className="font-black">A</span>ntonio Carlos Reis da Souza
+                        <span className="text-[#1EC4BF] font-black">A</span>ntonio Carlos Reis de Souza
                       </h3>
                       <a 
                         href="https://www.linkedin.com/" 
@@ -363,34 +369,39 @@ const SobreNos = () => {
                       </a>
                     </div>
                     <div className="font-ibm-plex text-sm text-gray-600 leading-relaxed space-y-1">
-                      <p>• Engenheiro Civil pela Universidade Gama Filho/RJ</p>
-                      <p>• Executivo sênior com mais de 35 anos de experiência no setor elétrico - Geração, Transmissão, Distribuição</p>
-                      <p>• Ex-Diretor de Engenharia da Light S.A.</p>
-                      <p>• Ex-Diretor de Expansão e Engenharia da CERJ - Companhia de Eletricidade do Rio de Janeiro</p>
-                      <p>• Ex-Diretor de Engenharia e Construção da AMPLA</p>
-                      <p>• Ex-Diretor de Engenharia da Neoenergia</p>
-                      <p>• Ex-Diretor de Distribuição da Neoenergia</p>
-                      <p>• Ex-Coordenador Regional Sudeste da ABCE</p>
-                      <p>• Atualmente é consultor independente</p>
+                      <ul className="list-disc pl-5 space-y-1 marker:text-gray-500">
+                      <li>Engenheiro de Eletrônica, Especialista em Análise de Sistemas e Tecnologia Digital em
+                          Controle e Proteção de Usinas e Subestações e Mestre em Economia Aplicada</li>
+                      <li>Engenheiro da Companhia Hidroelétrica do São Francisco – Chesf, com atuação nas áreas
+                          de automação de usinas e subestações</li>
+                      <li>Superintendente de Tecnologia da Informação</li>
+                      <li>Ouvidor da Chesf</li>
+                      <li>Secretário Geral da Chesf</li>
+                      <li>Presidente do Conselho Deliberativo da Fundação Chesf de Assistência e Seguridade – Fachesf</li>
+                      <li>Membro do Conselho Fiscal da Energética Águas da Pedra S.A.</li>
+                      <li>Professor do curso Técnico de Eletrônica e Telecomunicações do Instituto Federal de Pernambuco – IFPE</li>
+                      <li>Presidente do Comitê de Cidadania dos Chesfianos de Recife</li>
+                      <li>Contato: antoniocarlos@farmenergia.com.br (81)988814100</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Francisco Roberto Ramos de Souza */}
+              {/* Francisco Roberto Nunes de Souza */}
               <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-2">
                 <div className="flex gap-6">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/static/SociosImage.png" 
-                      alt="Francisco Roberto Ramos de Souza"
+                      src="/static/RobertoFarm.png" 
+                      alt="Francisco Roberto Nunes de Souza"
                       className="w-32 h-32 rounded-full object-cover"
                     />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
                       <h3 className="font-ibm-plex font-bold text-2xl text-farm-dark">
-                        Francisco <span className="font-black">R</span>oberto Ramos de Souza
+                        Francisco <span className="text-[#1EC4BF] font-black">R</span>oberto Nunes de Souza
                       </h3>
                       <a 
                         href="https://www.linkedin.com/" 
@@ -402,35 +413,43 @@ const SobreNos = () => {
                       </a>
                     </div>
                     <div className="font-ibm-plex text-sm text-gray-600 leading-relaxed space-y-1">
-                      <p>• Bacharel em Economia</p>
-                      <p>• Executivo sênior com mais de 35 anos de experiência no setor elétrico brasileiro - Geração, Transmissão, Distribuição, Comercialização</p>
-                      <p>• Ex-Diretor de Mercado da ELETROBRÁS</p>
-                      <p>• Ex-Diretor da FURNAS Centrais Elétricas S.A.</p>
-                      <p>• Ex-Diretor da AMPLA</p>
-                      <p>• Ex-Diretor de Negócios da Neoenergia</p>
-                      <p>• Ex-Presidente da ABCE - Associação Brasileira de Companhias de Energia Elétrica</p>
-                      <p>• Ex-Conselheiro da ONS - Operador Nacional do Sistema Elétrico</p>
-                      <p>• Ex-Conselheiro da CCEE - Câmara de Comercialização de Energia Elétrica</p>
-                      <p>• Atualmente é consultor independente</p>
+                      <ul className="list-disc pl-5 space-y-1 marker:text-gray-500">
+                      <li>Engenheiro Eletricista</li>
+                      <li>Engenheiro da Chesf com atuação Técnica nas áreas de Operação, Manutenção, Estudos
+                          e Comissionamento de Usinas de produção de energia elétrica</li>
+                      <li>Gerente de Departamento de Logística, Transporte, Manutenção e Segurança Patrimonial</li>
+                      <li>Gerente de Departamento coordenando atividades das áreas de Administração de
+                          Recursos Humanos, Saúde e Segurança do Trabalho</li>
+                      <li>Assessor da Superintendência de Recursos Humanos e da Superintendência de Projetos
+                          e Construção da Geração</li>
+                      <li>Assessor da Diretoria de Engenharia</li>
+                      <li>Coordenador da Área de Gestão de Participações</li>
+                      <li>Presidente do Conselho de Administração de 11 Empresas de Geração de Energia</li>
+                      <li>Conselheiro de Administração de 14 Empresas de Geração e Transmissão de Energia,
+                          dentre as quais, a Interligação Elétrica do Madeira S.A.</li>
+                      <li>Profissional sênior de gestão de risco e compliance</li>
+                      <li>Membro do Conselho Deliberativo da Fundação Chesf de Assistência e Seguridade Social – Fachesf</li>
+                      <li>Contato: roberto@farmenergia.com.br (81)997216089</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Maurício Carripeiro Labo */}
+              {/* Maurício Carneiro Leão */}
               <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-2">
                 <div className="flex gap-6">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/static/SociosImage.png" 
-                      alt="Maurício Carripeiro Labo"
+                      src="/static/MauricioFarm.png" 
+                      alt="Maurício Carneiro Leão"
                       className="w-32 h-32 rounded-full object-cover"
                     />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
                       <h3 className="font-ibm-plex font-bold text-2xl text-farm-dark">
-                        <span className="font-black">M</span>aurício Carripeiro Labo
+                        <span className="text-[#1EC4BF] font-black">M</span>aurício Carneiro Leão
                       </h3>
                       <a 
                         href="https://www.linkedin.com/" 
@@ -442,16 +461,23 @@ const SobreNos = () => {
                       </a>
                     </div>
                     <div className="font-ibm-plex text-sm text-gray-600 leading-relaxed space-y-1">
-                      <p>• Administrador de Empresas</p>
-                      <p>• MBA em Finanças pela FGV</p>
-                      <p>• Executivo sênior com mais de 25 anos de experiência no setor elétrico brasileiro</p>
-                      <p>• Ex-Diretor Financeiro e de Relações com Investidores da CPFL Energia</p>
-                      <p>• Ex-Diretor Financeiro da AMPLA</p>
-                      <p>• Ex-Diretor Financeiro da Neoenergia</p>
-                      <p>• Ex-Diretor Executivo da EDP Brasil</p>
-                      <p>• Ex-Conselheiro da ABRADEE - Associação Brasileira de Distribuidoras de Energia Elétrica</p>
-                      <p>• Ex-Coordenador do Grupo de Trabalho de Finanças da ABRADEE</p>
-                      <p>• Atualmente é consultor independente</p>
+                      <ul className="list-disc pl-5 space-y-1 marker:text-gray-500">
+                      <li>Engenheiro Civil e de Segurança do Trabalho</li>
+                      <li>MBA de Finanças Corporativas</li>
+                      <li>Environment, Social & Governance – ESG</li>
+                      <li>Engenheiro da Companhia Hidroelétrica do São Francisco – Chesf, com atuação nas áreas
+                          econômico-financeira, administrativa e de projetos e construção de transmissão</li>
+                      <li>Chefe da Assessoria Técnica da Presidência da Companhia Energética de Pernambuco – CELPE</li>
+                      <li>Gerente de Implantação de Trens Metropolitanos do Governo do Estado de PE</li>
+                      <li>Presidente do Metrô do Recife e Membro Titular do Conselho Diretor da Associação
+                          Nacional de Transportes Públicos e Presidente da Comissão Metro-Ferroviária do Brasil</li>
+                      <li>Consultor Técnico da Bombardier</li>
+                      <li>Diretor do Complexo Eólico Vamcruz</li>
+                      <li>Membro Titular dos Conselhos Fiscal e de Administração do Complexo Eólico São Miguel 
+                          do Gostoso e do Conselho Fiscal da Companhia Pernambucana de Gás - COPERGÁS</li>
+                      <li>Membro Titular do Conselho de Administração do Porto do Recife</li>
+                      <li>Contato: mauricio@farmenergia.com.br (81)999899892</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
