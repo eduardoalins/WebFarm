@@ -76,6 +76,7 @@ const Contato = () => {
               </h3>
               <a 
                 href="mailto:farm@farmenergia.com.br"
+                rel="noopener noreferrer"
                 className="font-ibm-plex text-lg text-farm-dark hover:text-farm-primary transition-colors"
               >
                 farm@farmenergia.com.br
@@ -99,7 +100,9 @@ const Contato = () => {
               </h3>
               <div className="font-ibm-plex text-lg text-farm-dark">
                 <a 
-                  href="https://www.google.com/maps/place/EMPRESARIAL+RIO+MAR+TORRE+4/@-8.0848396,-34.9013288,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x7ab1f9c507ee1df:0xd7ed4c5a48797476!8m2!3d-8.0848396!4d-34.8964579!16s%2Fg%2F11vdxpr5j4?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D" 
+                  href="https://www.google.com/maps/place/EMPRESARIAL+RIO+MAR+TORRE+4/@-8.0848396,-34.9013288,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x7ab1f9c507ee1df:0xd7ed4c5a48797476!8m2!3d-8.0848396!4d-34.8964579!16s%2Fg%2F11vdxpr5j4?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
                   className="hover:text-farm-primary transition-colors whitespace-nowrap block"
                 >
                   Av. República do Líbano 251 <br />
