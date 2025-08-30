@@ -205,7 +205,7 @@ const SobreNos = () => {
                   <img 
                     src="/static/FotoTeste3.png" 
                     alt="Nossa trajetória" 
-                    className="rounded-lg shadow-lg w-full max-w-md object-cover"
+                    className="rounded w-full max-w-md object-cover"
                   />
                 </div>
               </div>
