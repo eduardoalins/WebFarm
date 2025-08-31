@@ -28,7 +28,7 @@ const HeroSection = () => {
           </p>
           <Link 
             to="/contato"
-            className="inline-block bg-white hover:bg-gray-100 text-gray-800 font-ibm-plex font-semibold px-8 py-4 rounded-lg transition-colors"
+            className="inline-block bg-white hover:bg-gray-100 text-gray-800 font-ibm-plex font-semibold px-6 py-2 rounded-lg transition-colors"
           >
             Fale conosco
           </Link>
