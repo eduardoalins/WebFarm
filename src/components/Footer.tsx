@@ -1,5 +1,6 @@
 
 import { MapPin, Mail, Phone } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,11 +8,13 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex justify-center md:justify-start">
+            <Link to = "/">
             <img 
               src="/static/FARMLogoBranca.png" 
               alt="FARM Logo B&W" 
               className="h-12 w-auto"
             />
+            </Link>
           </div>
           
           <div className="space-y-4 md:text-right">

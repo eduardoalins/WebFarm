@@ -2,16 +2,16 @@
 const ImpactSection = () => {
   const impacts = [
     {
-      number: "2.3mil",
-      description: "Tons de CO2 evitadas anualmente"
+      number: "236",
+      description: "Consultorias Realizadas"
     },
     {
-      number: "Nascente",
-      description: "Empresa em crescimento acelerado"
+      number: "Nacional",
+      description: "Nosso alcance"
     },
     {
       number: "+1000",
-      description: "Projetos analisados com sucesso"
+      description: "Regulações realizadas e certificadas"
     }
   ];
 

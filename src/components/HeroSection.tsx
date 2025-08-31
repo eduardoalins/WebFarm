@@ -23,7 +23,8 @@ const HeroSection = () => {
             FARM
           </h1>
           <p className="font-ibm-plex text-xl md:text-2xl text-white mb-8 leading-relaxed">
-            Soluções sustentáveis em energia renovável para um futuro mais limpo
+            Sua nova parceira <br />
+            de Energia e Engenharia
           </p>
           <Link 
             to="/contato"

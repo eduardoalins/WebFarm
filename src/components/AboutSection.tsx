@@ -8,15 +8,15 @@ const AboutSection = () => {
   const services = [
     {
       icon: '/static/EnergiaImagem.png',
-      title: 'Energia Renovável'
+      title: 'Serviços de Engenharia'
     },
     {
       icon: '/static/ConsultoriaImagem.png',
-      title: 'Consultoria Técnica'
+      title: 'Consultoria em Gestão Empresarial'
     },
     {
       icon: '/static/ParceriasImagem.png',
-      title: 'Parcerias Estratégicas'
+      title: 'Intermediação de Serviços e Negócios'
     },
     {
       icon: '/static/RegulacaoImagem.png',
@@ -36,9 +36,9 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-16">
             <div className="text-left">
               <p className="font-ibm-plex text-lg text-gray-600 leading-relaxed">
-                Somos uma empresa especializada em consultoria de energia renovável, 
-                comprometida em desenvolver soluções sustentáveis que transformam o 
-                futuro energético do Brasil.
+                Somos uma empresa do setor de energia, com atuação em engenharia, consultoria, gestão empresarial e intermediação de serviços. Oferecemos soluções com competência, transparência e ética, promovendo o desenvolvimento sustentável. 
+                <br /><br />
+                Sustentados por valores como credibilidade, responsabilidade, integridade e inovação, buscamos ser reconhecidos entre os principais fornecedores de serviços de engenharia e consultoria na área de energia.
               </p>
             </div>
             <div className="flex justify-center lg:justify-center lg:ml-24">
@@ -118,14 +118,14 @@ const AboutSection = () => {
                 {services[selectedService].title}
               </h3>
               <p className="font-ibm-plex text-gray-600 text-center leading-relaxed">
-                {services[selectedService].title === 'Energia Renovável' && 
+                {services[selectedService].title === 'Serviços de Engenharia' && 
                   'Desenvolvemos soluções inovadoras em energia solar, eólica e outras fontes renováveis para um futuro sustentável.'
                 }
-                {services[selectedService].title === 'Consultoria Técnica' && 
+                {services[selectedService].title === 'Consultoria em Gestão Empresarial' && 
                   'Oferecemos expertise técnica especializada para otimizar seus projetos de energia renovável.'
                 }
-                {services[selectedService].title === 'Parcerias Estratégicas' && 
-                  'Estabelecemos parcerias sólidas com empresas e instituições para maximizar o impacto dos projetos.'
+                {services[selectedService].title === 'Intermediação de Serviços e Negócios' && 
+                  'Conectamos clientes e prestadores, realizando a intermediação de serviços e negócios com agilidade e confiança.'
                 }
                 {services[selectedService].title === 'Regulação' && 
                   'Auxiliamos na conformidade regulatória e certificações necessárias para projetos de energia renovável.'
