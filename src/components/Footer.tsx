@@ -19,7 +19,9 @@ const Footer = () => {
           
           <div className="space-y-4 md:text-right">
             <div className="flex items-center justify-center md:justify-end text-white">
+              <a href="https://www.google.com/maps/place/EMPRESARIAL+RIO+MAR+TORRE+4/@-8.0848396,-34.9013288,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x7ab1f9c507ee1df:0xd7ed4c5a48797476!8m2!3d-8.0848396!4d-34.8964579!16s%2Fg%2F11vdxpr5j4?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D">
               <MapPin className="w-5 h-5 mr-3 text-white" />
+              </a>
               <a href="https://www.google.com/maps/place/EMPRESARIAL+RIO+MAR+TORRE+4/@-8.0848396,-34.9013288,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x7ab1f9c507ee1df:0xd7ed4c5a48797476!8m2!3d-8.0848396!4d-34.8964579!16s%2Fg%2F11vdxpr5j4?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank" 
               rel="noopener noreferrer">
@@ -30,7 +32,9 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center justify-center md:justify-end text-white">
+              <a href="mailto:farm@farmenergia.com.br">
               <Mail className="w-5 h-5 mr-3 text-white" />
+              </a>
               <a href="mailto:farm@farmenergia.com.br"
                  rel="noopener noreferrer">
               <span className="font-ibm-plex">
@@ -40,7 +44,9 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center justify-center md:justify-end text-white">
+              <a href="tel:+5581988814100">
               <Phone className="w-5 h-5 mr-3 text-white" />
+              </a>
               <a href="tel:+5581988814100">
               <span className="font-ibm-plex">
                 +55 (81) 98881-4100
