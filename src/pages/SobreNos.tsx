@@ -258,7 +258,7 @@ const SobreNos = () => {
                       {eventos.map((evento) => (
                         <CarouselItem key={evento.id} className="md:basis-1/2 lg:basis-1/3">
                           <div 
-                            className="bg-white rounded-lg shadow-lg overflow-hidden h-full cursor-pointer hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                            className="bg-white rounded-lg overflow-hidden h-full cursor-pointer hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                             onClick={() => {
                               setSelectedEvento(evento);
                               setIsDialogOpen(true);
