@@ -513,7 +513,7 @@ const SobreNos = () => {
                     </div>
                     <div>
                       <h4 className="font-ibm-plex font-bold text-lg text-farm-dark mb-2">
-                        Resumo
+                        Tópico
                       </h4>
                       <p className="font-ibm-plex text-gray-600 leading-relaxed">
                         {selectedEvento.descricao}
@@ -523,7 +523,7 @@ const SobreNos = () => {
                 </div>
                 <div>
                   <h4 className="font-ibm-plex font-bold text-lg text-farm-dark mb-4">
-                    Detalhes Completos
+                    Detalhes
                   </h4>
                   <p className="font-ibm-plex text-gray-600 leading-relaxed text-justify">
                     {selectedEvento.descricaoCompleta}
