@@ -279,9 +279,6 @@ const SobreNos = () => {
                               <p className="font-ibm-plex text-gray-600 text-sm leading-relaxed">
                                 {evento.descricao}
                               </p>
-                              <p className="font-ibm-plex text-farm-secondary text-xs mt-3 font-semibold">
-                                Clique para ver mais detalhes
-                              </p>
                             </div>
                           </div>
                         </CarouselItem>
