@@ -317,7 +317,7 @@ const SobreNos = () => {
                         href="https://www.linkedin.com/" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800 transition-colors"
+                        className="text-gray-600 hover:text-[#1EC4BF] transition-colors"
                       >
                         <Linkedin size={20} />
                       </a>
@@ -363,7 +363,7 @@ const SobreNos = () => {
                         href="https://www.linkedin.com/" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800 transition-colors"
+                        className="text-gray-600 hover:text-[#1EC4BF] transition-colors"
                       >
                         <Linkedin size={20} />
                       </a>
@@ -407,7 +407,7 @@ const SobreNos = () => {
                         href="https://www.linkedin.com/" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800 transition-colors"
+                        className="text-gray-600 hover:text-[#1EC4BF] transition-colors"
                       >
                         <Linkedin size={20} />
                       </a>
@@ -455,7 +455,7 @@ const SobreNos = () => {
                         href="https://www.linkedin.com/" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800 transition-colors"
+                        className="text-gray-600 hover:text-[#1EC4BF] transition-colors"
                       >
                         <Linkedin size={20} />
                       </a>
