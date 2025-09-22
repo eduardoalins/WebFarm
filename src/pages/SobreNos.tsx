@@ -21,56 +21,89 @@ const SobreNos = () => {
   const [selectedEvento, setSelectedEvento] = useState<typeof eventos[0] | null>(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
-  const eventos = [
-    {
-      id: 1,
-      titulo: "São Paulo - Sede Principal",
-      data: "2018 - Presente",
-      imagem: "/static/imagemReuniao.png",
-      descricao: "Nossa sede principal localizada no coração financeiro do Brasil",
-      descricaoCompleta: "Nossa sede principal está estrategicamente localizada no coração financeiro do Brasil, em São Paulo. Este escritório serve como centro de comando de todas as nossas operações, abrigando as equipes de liderança, desenvolvimento de projetos e relacionamento com clientes. Desde 2018, temos consolidado nossa presença na capital paulista, estabelecendo parcerias sólidas com instituições financeiras, empresas de energia e órgãos reguladores. O escritório conta com infraestrutura moderna e tecnológica para suportar nossos projetos de energia renovável em todo o território nacional."
-    },
-    {
-      id: 2,
-      titulo: "Rio de Janeiro - Filial",
-      data: "2020 - Presente",
-      imagem: "/static/FotoTeste2.png",
-      descricao: "Expansão para atender projetos no estado do Rio de Janeiro",
-      descricaoCompleta: "Nossa filial no Rio de Janeiro foi estabelecida em 2020 como parte da estratégia de expansão regional. Esta unidade é responsável por atender todo o estado do Rio de Janeiro e região, desenvolvendo projetos de energia renovável em parceria com empresas locais e o governo estadual. A equipe carioca foca especialmente em projetos de energia solar distribuída e pequenas centrais hidrelétricas, aproveitando as características geográficas favoráveis da região. O escritório também serve como ponte para projetos no Espírito Santo e sul da Bahia."
-    },
-    {
-      id: 3,
-      titulo: "Minas Gerais - Operações",
-      data: "2021 - Presente",
-      imagem: "/static/FotoTeste1.png",
-      descricao: "Centro de operações para projetos de energia renovável",
-      descricaoCompleta: "O centro de operações em Minas Gerais, inaugurado em 2021, representa um marco importante em nossa expansão. Esta unidade concentra as atividades operacionais de monitoramento e manutenção de usinas de energia renovável em funcionamento. Minas Gerais foi escolhida estrategicamente por sua posição central no país e pela abundância de recursos naturais favoráveis à geração de energia limpa. A equipe mineira é especializada em operação e manutenção de usinas solares, pequenas centrais hidrelétricas e projetos de biomassa, garantindo máxima eficiência e produtividade dos ativos energéticos.O centro de operações em Minas Gerais, inaugurado em 2021, representa um marco importante em nossa expansão. Esta unidade concentra as atividades operacionais de monitoramento e manutenção de usinas de energia renovável em funcionamento. Minas Gerais foi escolhida estrategicamente por sua posição central no país e pela abundância de recursos naturais favoráveis à geração de energia limpa. A equipe mineira é especializada em operação e manutenção de usinas solares, pequenas centrais hidrelétricas e projetos de biomassa, garantindo máxima eficiência e produtividade dos ativos energéticos.O centro de operações em Minas Gerais, inaugurado em 2021, representa um marco importante em nossa expansão. Esta unidade concentra as atividades operacionais de monitoramento e manutenção de usinas de energia renovável em funcionamento. Minas Gerais foi escolhida estrategicamente por sua posição central no país e pela abundância de recursos naturais favoráveis à geração de energia limpa. A equipe mineira é especializada em operação e manutenção de usinas solares, pequenas centrais hidrelétricas e projetos de biomassa, garantindo máxima eficiência e produtividade dos ativos energéticos.O centro de operações em Minas Gerais, inaugurado em 2021, representa um marco importante em nossa expansão. Esta unidade concentra as atividades operacionais de monitoramento e manutenção de usinas de energia renovável em funcionamento. Minas Gerais foi escolhida estrategicamente por sua posição central no país e pela abundância de recursos naturais favoráveis à geração de energia limpa. A equipe mineira é especializada em operação e manutenção de usinas solares, pequenas centrais hidrelétricas e projetos de biomassa, garantindo máxima eficiência e produtividade dos ativos energéticos.O centro de operações em Minas Gerais, inaugurado em 2021, representa um marco importante em nossa expansão. Esta unidade concentra as atividades operacionais de monitoramento e manutenção de usinas de energia renovável em funcionamento. Minas Gerais foi escolhida estrategicamente por sua posição central no país e pela abundância de recursos naturais favoráveis à geração de energia limpa. A equipe mineira é especializada em operação e manutenção de usinas solares, pequenas centrais hidrelétricas e projetos de biomassa, garantindo máxima eficiência e produtividade dos ativos energéticos.O centro de operações em Minas Gerais, inaugurado em 2021, representa um marco importante em nossa expansão. Esta unidade concentra as atividades operacionais de monitoramento e manutenção de usinas de energia renovável em funcionamento. Minas Gerais foi escolhida estrategicamente por sua posição central no país e pela abundância de recursos naturais favoráveis à geração de energia limpa. A equipe mineira é especializada em operação e manutenção de usinas solares, pequenas centrais hidrelétricas e projetos de biomassa, garantindo máxima eficiência e produtividade dos ativos energéticos.O centro de operações em Minas Gerais, inaugurado em 2021, representa um marco importante em nossa expansão. Esta unidade concentra as atividades operacionais de monitoramento e manutenção de usinas de energia renovável em funcionamento. Minas Gerais foi escolhida estrategicamente por sua posição central no país e pela abundância de recursos naturais favoráveis à geração de energia limpa. A equipe mineira é especializada em operação e manutenção de usinas solares, pequenas centrais hidrelétricas e projetos de biomassa, garantindo máxima eficiência e produtividade dos ativos energéticos."
-    },
-    {
-      id: 4,
-      titulo: "Bahia - Energia Solar",
-      data: "2022 - Presente",
-      imagem: "/static/7fd02d58-7605-49fa-9845-66c81b2c6cf9.png",
-      descricao: "Especialização em projetos de energia solar fotovoltaica",
-      descricaoCompleta: "Nossa unidade na Bahia, estabelecida em 2022, é especializada exclusivamente em projetos de energia solar fotovoltaica. A Bahia oferece condições excepcionais para geração solar, com altos índices de irradiação durante todo o ano. Nossa equipe baiana desenvolve desde grandes usinas solares até sistemas de geração distribuída para empresas e residências. Trabalhamos em estreita colaboração com fornecedores locais e internacionais de equipamentos fotovoltaicos, garantindo a melhor relação custo-benefício e tecnologia de ponta em todos os projetos. A unidade também atende os estados do Sergipe e parte de Pernambuco."
-    },
-    {
-      id: 5,
-      titulo: "Ceará - Energia Eólica",
-      data: "2023 - Presente",
-      imagem: "/static/FotoTeste2.png",
-      descricao: "Foco em desenvolvimento de parques eólicos offshore e onshore",
-      descricaoCompleta: "A unidade do Ceará, nossa mais recente expansão de 2023, concentra-se no desenvolvimento de parques eólicos tanto onshore quanto offshore. O Ceará é líder nacional em geração eólica, oferecendo ventos constantes e de alta qualidade. Nossa equipe cearense trabalha no desenvolvimento de complexos eólicos de grande porte, desde a prospecção de áreas até a operação comercial. Temos expertise em estudos anemométricos, modelagem de ventos e otimização de layout de parques. Também desenvolvemos projetos piloto de energia eólica offshore, uma tecnologia emergente no Brasil com enorme potencial de crescimento."
-    },
-    {
-      id: 6,
-      titulo: "Paraná - Biomassa",
-      data: "2024 - Presente",
-      imagem: "/static/imagemCentralHome.png",
-      descricao: "Projetos inovadores de geração de energia a partir de biomassa",
-      descricaoCompleta: "Nossa mais nova unidade, inaugurada em 2024 no Paraná, dedica-se ao desenvolvimento de projetos inovadores de geração de energia a partir de biomassa. O Paraná possui um forte setor agroindustrial, gerando abundantes resíduos que podem ser convertidos em energia limpa. Nossa equipe paranaense desenvolve projetos utilizando bagaço de cana, casca de arroz, resíduos florestais e outros materiais orgânicos. Trabalhamos com tecnologias avançadas de combustão, gasificação e biodigestão, sempre priorizando a sustentabilidade ambiental. Os projetos beneficiam tanto produtores rurais quanto indústrias, criando uma economia circular virtuosa."
-    }
-  ];
+const eventos = [
+  {
+    id: 1,
+    titulo: "Geração de Energia Renovável",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Projetos customizados em solar, eólica, biomassa e hidráulica",
+    descricaoCompleta: "Projetos customizados em solar, eólica, biomassa e hidráulica, da concepção à operação, garantindo máxima eficiência e sustentabilidade em cada megawatt gerado."
+  },
+  {
+    id: 2,
+    titulo: "Armazenamento de Energia",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Sistemas avançados de armazenamento para equilibrar oferta e demanda",
+    descricaoCompleta: "Projetamos sistemas de armazenamento avançado, como baterias, hidrelétricas reversíveis, otimizando equilíbrio entre oferta e demanda e reforçando a segurança energética."
+  },
+  {
+    id: 3,
+    titulo: "Mercado de Carbono",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Consultoria em inventários, créditos e intermediação nos mercados",
+    descricaoCompleta: "Oferecemos consultoria completa em carbono, envolvendo quantificação de emissões, criação de projetos de créditos e intermediação no mercado regulado e voluntário."
+  },
+  {
+    id: 4,
+    titulo: "Programa de Eficiência Energética",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Programas para otimizar consumo, reduzir custos e desperdícios",
+    descricaoCompleta: "Desenvolvemos e implementamos programas para otimizar o consumo, reduzir custos operacionais e minimizar desperdícios em instalações industriais, comerciais e residenciais."
+  },
+  {
+    id: 5,
+    titulo: "Consultoria em Gestão e Marco Regulatório",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Assessoria em governança, compliance e regulação do setor elétrico",
+    descricaoCompleta: "Assessoria estratégica em governança, compliance e regulação, navegando pelas normas do setor elétrico para viabilizar projetos e garantir conformidade legal."
+  },
+  {
+    id: 6,
+    titulo: "Estruturação e Prospecção de Negócios",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Conectamos investidores e parceiros para maximizar retorno",
+    descricaoCompleta: "Planejamos e intermediamos oportunidades comerciais, conectando investidores, parceiros e empreendedores para estruturar negócios e maximizar retorno financeiro."
+  },
+  {
+    id: 7,
+    titulo: "Suporte a Leilões de Geração e Transmissão",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Apoio do edital à negociação de contratos em leilões de energia",
+    descricaoCompleta: "Apoiamos projetos consolidados em todas as etapas dos leilões de energia, da análise de edital à negociação de contratos."
+  },
+  {
+    id: 8,
+    titulo: "Engenharia do Proprietário",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Gestão de fornecedores, qualidade, prazos e custos",
+    descricaoCompleta: "Atuamos como extensão interna do cliente, gerenciando fornecedores e garantindo qualidade técnica, cumprimento de prazos e controle de custos em empreendimentos."
+  },
+  {
+    id: 9,
+    titulo: "Licenciamento Ambiental",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "EIA, audiências públicas e obtenção de aprovações",
+    descricaoCompleta: "Orientamos processos de licenciamento, preparando estudos de impacto, conduzindo audiências públicas e garantindo aprovação junto a órgãos competentes."
+  },
+  {
+    id: 10,
+    titulo: "Modais de Transporte",
+    data: "2024",
+    imagem: "/static/imagemReuniao.png",
+    descricao: "Soluções logísticas integrando rodovias, ferrovias, hidrovias e portos",
+    descricaoCompleta: "Projetamos soluções logísticas e de transporte para energia e insumos, integrando rodovia, ferrovia, hidrovia e portos, otimizando fluxo e redução de custos."
+  }
+];
+
 
   const cardsInfo = [
     {
@@ -176,11 +209,13 @@ const SobreNos = () => {
               {/* Texto da empresa alinhado ao grid dos cards */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                 <p className="md:col-span-3 font-ibm-plex text-lg text-gray-600 leading-relaxed text-left">
-                  É uma sociedade constituída por executivos sêniores, com larga experiência em
-                  posições de liderança no planejamento e execução de estratégias vencedoras em
-                  empresas de infraestrutura, com reconhecida habilidade no relacionamento e
-                  negociação com Acionistas, Conselheiros, Executivos e Entidades Governamentais
-                  e Privadas.
+                  A FARM Energia é uma sociedade formada por líderes com histórico de atuação em organizações
+                  como Companhia Hidrelétrica do São Francisco, Companhia Energética de Pernambuco, Sistema de
+                  Transmissão Nordeste, Transnorte Energia, IE Madeira, Jirau Energia, Norte Energia, Metrô do
+                  Recife, Ministério de Minas e Energia, diversos complexos eólicos, dentre outras. Nossa equipe
+                  domina áreas técnicas, regulatórias, financeiras e estratégicas, com forte presença em conselhos
+                  de empresas do setor elétrico. Essa bagagem nos permite oferecer soluções completas e confiáveis
+                  para os desafios do setor energético.
                 </p>
               </div>
               
@@ -191,14 +226,17 @@ const SobreNos = () => {
                 </h3>
                 <div className="md:col-span-2">
                   <p className="font-ibm-plex text-lg text-gray-600 leading-relaxed mb-4 text-left">
-                    Faucibus eget augue vitae justo rhoncus congue. Integer et mattis arcu rutus 
-                    lobortis tincidunt. Morbi tristique, nulla ut auctor sollicitudin, ex justo 
-                    lacinia magna, ut fermentum lorem tortor sed nisl.
-                  </p>
-                  <p className="font-ibm-plex text-lg text-gray-600 leading-relaxed text-left">
-                    Suspendisse fermentum gravida. Curabitur et lorem vitae elit posuere 
-                    sollicitudin. Proin nec sapien velit, porta tincidunt vectum, vel lobortis 
-                    odio lacus.
+                    Nossa história é construída sobre décadas de experiência:
+                    <br /><br />
+                    •	Liderança em projetos de geração e transmissão de energia.
+                    <br />
+                    •	Atuação em cargos estratégicos no setor público e privado.
+                    <br />
+                    •	Participação em conselhos de empresas como Norte Energia, Jirau Energia, CEPEL, Rumo S.A. e COPERGÁS.
+                    <br />
+                    •	Reconhecimento como referência em governança, compliance e inovação no setor elétrico. 
+                    <br /><br />
+                    A FARM Energia é a síntese dessa trajetória: uma empresa jovem com alma experiente.
                   </p>
                 </div>
                 <div className="flex justify-center">

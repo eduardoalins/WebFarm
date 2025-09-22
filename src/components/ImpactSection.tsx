@@ -1,50 +1,39 @@
+// ImpactSection.jsx
+import React from "react";
 
-const ImpactSection = () => {
-  const impacts = [
-    {
-      number: "236",
-      description: "Consultorias Realizadas"
-    },
-    {
-      number: "Nacional",
-      description: "Nosso alcance"
-    },
-    {
-      number: "+1000",
-      description: "Regulações realizadas e certificadas"
-    }
-  ];
+const PHRASES = [
+  "Contribuímos para a transição energética com projetos em fontes renováveis como solar, eólica, biomassa e hidráulica.",
+  "Atuamos em soluções de armazenamento de energia.",
+  "Promovemos eficiência energética e apoiamos empreendedores em leilões de geração e transmissão.",
+  "Participamos do mercado de carbono e da estruturação de negócios sustentáveis. Cada projeto é pensado para gerar valor econômico, social e ambiental."
+];
 
+export default function ImpactSection({ items = PHRASES }) {
   return (
-    <section className="bg-farm-tertiary py-20">
+    <section aria-labelledby="impactos-title" className="bg-farm-tertiary py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-ibm-plex text-4xl font-bold mb-6" style={{color: '#1E1E1E'}}>
+          <h2
+            id="impactos-title"
+            className="font-ibm-plex text-4xl font-bold mb-6 text-neutral-900 dark:text-neutral-100"
+          >
             Impactos
           </h2>
-          <p className="font-ibm-plex text-xl max-w-3xl mx-auto leading-relaxed" style={{color: '#1E1E1E'}}>
-            Nosso compromisso com a sustentabilidade gera resultados mensuráveis 
-            que transformam o meio ambiente e a sociedade.
+          <p className="font-ibm-plex text-xl max-w-3xl mx-auto leading-relaxed text-neutral-900 dark:text-neutral-100">
+            Nosso trabalho gera impactos reais e positivos:
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {impacts.map((impact, index) => (
-            <div key={index} className="text-center">
-               <div className="mb-4">
-                <span className="font-ibm-plex text-5xl md:text-6xl font-bold" style={{color: '#1E1E1E'}}>
-                  {impact.number}
-                </span>
-              </div>
-              <p className="font-ibm-plex text-lg leading-relaxed" style={{color: '#1E1E1E'}}>
-                {impact.description}
+        <ul role="list" className="grid grid-cols-1 md:grid-cols-4 gap-8 items-stretch">
+          {items.map((text, idx) => (
+            <li key={idx} className="text-center h-full">
+              <p className="font-ibm-plex text-base md:text-lg leading-relaxed text-neutral-900 dark:text-neutral-100">
+                {text}
               </p>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );
-};
-
-export default ImpactSection;
+}

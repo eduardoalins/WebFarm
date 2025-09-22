@@ -36,9 +36,9 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-16">
             <div className="text-left">
               <p className="font-ibm-plex text-lg text-gray-600 leading-relaxed">
-                Somos uma empresa do setor de energia, com atuação em engenharia, consultoria, gestão empresarial e intermediação de serviços. Oferecemos soluções com competência, transparência e ética, promovendo o desenvolvimento sustentável. 
-                <br /><br />
-                Sustentados por valores como credibilidade, responsabilidade, integridade e inovação, buscamos ser reconhecidos entre os principais fornecedores de serviços de engenharia e consultoria na área de energia.
+              A FARM Energia nasceu em janeiro de 2024 com um propósito claro: contribuir para o desenvolvimento do setor energético por meio de soluções inteligentes, sustentáveis e éticas. Somos uma empresa formada por executivos sêniores com ampla experiência em infraestrutura, engenharia e gestão pública e privada.
+              <br /> <br />
+              Atuamos com excelência em serviços de engenharia, consultoria empresarial e intermediação de negócios, sempre com foco na inovação e na sustentabilidade.
               </p>
             </div>
             <div className="flex justify-center lg:justify-center lg:ml-24">
