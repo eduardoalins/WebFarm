@@ -24,7 +24,7 @@ export default function ImpactSection({ items = PHRASES }) {
           </p>
         </div>
 
-        <ul role="list" className="grid grid-cols-1 md:grid-cols-4 gap-8 items-stretch">
+        <ul role="list" className="grid font-bold grid-cols-1 md:grid-cols-4 gap-8 items-stretch">
           {items.map((text, idx) => (
             <li key={idx} className="text-center h-full">
               <p className="font-ibm-plex text-base md:text-lg leading-relaxed text-neutral-900 dark:text-neutral-100">
