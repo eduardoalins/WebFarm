@@ -26,7 +26,7 @@ const eventos = [
     id: 1,
     titulo: "Geração de Energia Renovável",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento1.jpg",
     descricao: "Projetos customizados em solar, eólica, biomassa e hidráulica",
     descricaoCompleta: "Projetos customizados em solar, eólica, biomassa e hidráulica, da concepção à operação, garantindo máxima eficiência e sustentabilidade em cada megawatt gerado."
   },
@@ -34,7 +34,7 @@ const eventos = [
     id: 2,
     titulo: "Armazenamento de Energia",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento2.jpg",
     descricao: "Sistemas avançados de armazenamento para equilibrar oferta e demanda",
     descricaoCompleta: "Projetamos sistemas de armazenamento avançado, como baterias, hidrelétricas reversíveis, otimizando equilíbrio entre oferta e demanda e reforçando a segurança energética."
   },
@@ -42,7 +42,7 @@ const eventos = [
     id: 3,
     titulo: "Mercado de Carbono",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento3.jpg",
     descricao: "Consultoria em inventários, créditos e intermediação nos mercados",
     descricaoCompleta: "Oferecemos consultoria completa em carbono, envolvendo quantificação de emissões, criação de projetos de créditos e intermediação no mercado regulado e voluntário."
   },
@@ -50,7 +50,7 @@ const eventos = [
     id: 4,
     titulo: "Programa de Eficiência Energética",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento4.jpg",
     descricao: "Programas para otimizar consumo, reduzir custos e desperdícios",
     descricaoCompleta: "Desenvolvemos e implementamos programas para otimizar o consumo, reduzir custos operacionais e minimizar desperdícios em instalações industriais, comerciais e residenciais."
   },
@@ -58,7 +58,7 @@ const eventos = [
     id: 5,
     titulo: "Consultoria em Gestão e Marco Regulatório",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento5.jpg",
     descricao: "Assessoria em governança, compliance e regulação do setor elétrico",
     descricaoCompleta: "Assessoria estratégica em governança, compliance e regulação, navegando pelas normas do setor elétrico para viabilizar projetos e garantir conformidade legal."
   },
@@ -66,7 +66,7 @@ const eventos = [
     id: 6,
     titulo: "Estruturação e Prospecção de Negócios",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento6.jpg",
     descricao: "Conectamos investidores e parceiros para maximizar retorno",
     descricaoCompleta: "Planejamos e intermediamos oportunidades comerciais, conectando investidores, parceiros e empreendedores para estruturar negócios e maximizar retorno financeiro."
   },
@@ -74,7 +74,7 @@ const eventos = [
     id: 7,
     titulo: "Suporte a Leilões de Geração e Transmissão",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento7.jpg",
     descricao: "Apoio do edital à negociação de contratos em leilões de energia",
     descricaoCompleta: "Apoiamos projetos consolidados em todas as etapas dos leilões de energia, da análise de edital à negociação de contratos."
   },
@@ -82,7 +82,7 @@ const eventos = [
     id: 8,
     titulo: "Engenharia do Proprietário",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento8.jpg",
     descricao: "Gestão de fornecedores, qualidade, prazos e custos",
     descricaoCompleta: "Atuamos como extensão interna do cliente, gerenciando fornecedores e garantindo qualidade técnica, cumprimento de prazos e controle de custos em empreendimentos."
   },
@@ -90,7 +90,7 @@ const eventos = [
     id: 9,
     titulo: "Licenciamento Ambiental",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento9.jpg",
     descricao: "EIA, audiências públicas e obtenção de aprovações",
     descricaoCompleta: "Orientamos processos de licenciamento, preparando estudos de impacto, conduzindo audiências públicas e garantindo aprovação junto a órgãos competentes."
   },
@@ -98,7 +98,7 @@ const eventos = [
     id: 10,
     titulo: "Modais de Transporte",
     data: "2024",
-    imagem: "/static/imagemReuniao.png",
+    imagem: "/static/ImagemEvento10.jpg",
     descricao: "Soluções logísticas integrando rodovias, ferrovias, hidrovias e portos",
     descricaoCompleta: "Projetamos soluções logísticas e de transporte para energia e insumos, integrando rodovia, ferrovia, hidrovia e portos, otimizando fluxo e redução de custos."
   }
